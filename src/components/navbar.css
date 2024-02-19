@@ -1,0 +1,20 @@
+.NavBar{
+    height: 67px !important;
+
+}
+.form-control{
+    width: 78vw;
+    padding: 5px;
+}
+.fa-solid {
+    color: #bc1aa7;
+}
+.me-auto{
+    color: blue;
+}
+.navbar {
+    background-color: rgb(146, 146, 230);
+}
+.container-fluid{
+    background-color:#b3e0ff;
+}

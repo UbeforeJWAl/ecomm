@@ -1,0 +1,71 @@
+.login-container{
+    margin-top: 8rem;
+    font-family: 'popins',sans-serif;
+}
+.input-bg{
+    background-color: #f3f3f3;
+    color: #dbd5d5;
+    font-size: 0.9rem;
+    height: 2.9rem;
+    width: 200px;
+}
+.fs{
+    width: 78vw;
+    padding: 5px;
+}
+.ln{
+    width: 78vw;
+    padding: 5px;
+}
+.em{
+    width: 78vw;
+    padding: 5px;
+}
+.pass{
+    width: 78vw;
+    padding: 5px;
+}
+
+.custom-btn{
+    padding: 0.6rem;
+    border-radius: 4px;
+
+}
+.custom-btn-blue{
+    border: 1px solid #b3e0ff;
+    background-color:#b3e0ff ;
+    color: #fff;
+}
+.custom-btn-white{
+    border: 1px solid #dee1e3;
+    background-color:#feffff ;
+    color: #000;
+    padding: 5px;
+}
+.image1{
+    display: block;
+}
+.image2{
+    display: none;
+}
+@media only screen and (max-width: 450px){
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: block;
+    }
+    .login-container{
+        margin-top: 2.5rem;
+    }
+    .card-body{
+        padding-left:1.4rem ;
+        padding-right:1.4rem ;
+    }
+    .card{
+        border: none !important;
+    }
+    .shadow{
+        box-shadow: none !important;
+    }
+}
